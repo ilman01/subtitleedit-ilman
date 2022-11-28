@@ -747,6 +747,17 @@ namespace Nikse.SubtitleEdit.Core.Common
         public string WebVttCueAn7 { get; set; }
         public string WebVttCueAn8 { get; set; }
         public string WebVttCueAn9 { get; set; }
+        public string WebVttCueAn10 { get; set; }
+        public string WebVttCueAn11 { get; set; }
+        public string WebVttCueAn12 { get; set; }
+        public string WebVttCueAn13 { get; set; }
+        public string WebVttCueAn14 { get; set; }
+        public string WebVttCueAn15 { get; set; }
+        public string WebVttCueAn16 { get; set; }
+        public string WebVttCueAn17 { get; set; }
+        public string WebVttCueAn18 { get; set; }
+        public string WebVttCueAn19 { get; set; }
+        public string WebVttCueAn20 { get; set; }
         public string MPlayer2Extension { get; set; }
         public bool TeletextItalicFix { get; set; }
         public bool MccDebug { get; set; }
@@ -819,15 +830,20 @@ $HorzAlign          =   Center
             WebVttTimescale = 90000;
             WebVttUseXTimestampMap = true;
             WebVttUseMultipleXTimestampMap = true;
-            WebVttCueAn1 = "position:20%";
+            WebVttCueAn1 = "align:start size:31% position:0% line:100%";
             WebVttCueAn2 = "";
-            WebVttCueAn3 = "position:80%";
-            WebVttCueAn4 = "position:20% line:50%";
-            WebVttCueAn5 = "line:50%";
-            WebVttCueAn6 = "position:80% line:50%";
-            WebVttCueAn7 = "position:20% line:20%";
-            WebVttCueAn8 = "line:20%";
-            WebVttCueAn9 = "position:80% line:20%";
+            WebVttCueAn3 = "align:start size:31% position:100% line:100%";
+            WebVttCueAn4 = "align:start size:50% position:0% line:50%";
+            WebVttCueAn5 = "align:start position:0%";
+            WebVttCueAn6 = "align:start size:100% position:100% line:50%";
+            WebVttCueAn7 = "align:start size:31% position:0% line:0%";
+            WebVttCueAn8 = "align:start position:0% line:0%";
+            WebVttCueAn9 = "align:start size:31% position:100% line:0%";
+            WebVttCueAn10 = "align:start size:31% position:5% line:100%";
+            WebVttCueAn11 = "align:start size:31% position:10% line:100%";
+            WebVttCueAn12 = "align:start size:31% position:15% line:100%";
+            WebVttCueAn13 = "align:start size:31% position:50% line:100%";
+            WebVttCueAn14 = "";
 
             MPlayer2Extension = ".txt";
 
@@ -6658,6 +6674,72 @@ $HorzAlign          =   Center
                     settings.SubtitleSettings.WebVttCueAn9 = subNode.InnerText;
                 }
 
+                subNode = node.SelectSingleNode("WebVttCueAn10");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn10 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn11");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn11 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn12");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn12 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn13");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn13 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn14");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn14 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn15");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn15 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn16");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn16 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn17");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn17 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn18");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn18 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn19");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn19 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn20");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn20 = subNode.InnerText;
+                }
+
                 subNode = node.SelectSingleNode("MPlayer2Extension");
                 if (subNode != null)
                 {
@@ -10555,6 +10637,17 @@ $HorzAlign          =   Center
                 textWriter.WriteElementString("WebVttCueAn7", settings.SubtitleSettings.WebVttCueAn7);
                 textWriter.WriteElementString("WebVttCueAn8", settings.SubtitleSettings.WebVttCueAn8);
                 textWriter.WriteElementString("WebVttCueAn9", settings.SubtitleSettings.WebVttCueAn9);
+                textWriter.WriteElementString("WebVttCueAn10", settings.SubtitleSettings.WebVttCueAn10);
+                textWriter.WriteElementString("WebVttCueAn11", settings.SubtitleSettings.WebVttCueAn11);
+                textWriter.WriteElementString("WebVttCueAn12", settings.SubtitleSettings.WebVttCueAn12);
+                textWriter.WriteElementString("WebVttCueAn13", settings.SubtitleSettings.WebVttCueAn13);
+                textWriter.WriteElementString("WebVttCueAn14", settings.SubtitleSettings.WebVttCueAn14);
+                textWriter.WriteElementString("WebVttCueAn15", settings.SubtitleSettings.WebVttCueAn15);
+                textWriter.WriteElementString("WebVttCueAn16", settings.SubtitleSettings.WebVttCueAn16);
+                textWriter.WriteElementString("WebVttCueAn17", settings.SubtitleSettings.WebVttCueAn17);
+                textWriter.WriteElementString("WebVttCueAn18", settings.SubtitleSettings.WebVttCueAn18);
+                textWriter.WriteElementString("WebVttCueAn19", settings.SubtitleSettings.WebVttCueAn19);
+                textWriter.WriteElementString("WebVttCueAn20", settings.SubtitleSettings.WebVttCueAn20);
                 textWriter.WriteElementString("MPlayer2Extension", settings.SubtitleSettings.MPlayer2Extension);
                 textWriter.WriteElementString("TeletextItalicFix", settings.SubtitleSettings.TeletextItalicFix.ToString(CultureInfo.InvariantCulture));
                 textWriter.WriteElementString("MccDebug", settings.SubtitleSettings.MccDebug.ToString(CultureInfo.InvariantCulture));

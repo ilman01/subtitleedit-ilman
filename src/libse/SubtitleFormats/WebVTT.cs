@@ -98,37 +98,81 @@ namespace Nikse.SubtitleEdit.Core.SubtitleFormats
         internal static string GetPositionInfoFromAssTag(Paragraph p)
         {
             string positionInfo;
-            if (p.Text.StartsWith("{\\an1", StringComparison.Ordinal))
+            if (p.Text.StartsWith("{\\an1}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn1;
             }
-            else if (p.Text.StartsWith("{\\an3", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an3}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn3;
             }
-            else if (p.Text.StartsWith("{\\an4", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an4}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn4;
             }
-            else if (p.Text.StartsWith("{\\an5", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an5}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn5;
             }
-            else if (p.Text.StartsWith("{\\an6", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an6}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn6;
             }
-            else if (p.Text.StartsWith("{\\an7", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an7}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn7;
             }
-            else if (p.Text.StartsWith("{\\an8", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an8}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn8;
             }
-            else if (p.Text.StartsWith("{\\an9", StringComparison.Ordinal))
+            else if (p.Text.StartsWith("{\\an9}", StringComparison.Ordinal))
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn9;
+            }
+            else if (p.Text.StartsWith("{\\an10", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn10;
+            }
+            else if (p.Text.StartsWith("{\\an11", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn11;
+            }
+            else if (p.Text.StartsWith("{\\an12", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn12;
+            }
+            else if (p.Text.StartsWith("{\\an13", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn13;
+            }
+            else if (p.Text.StartsWith("{\\an14", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn14;
+            }
+            else if (p.Text.StartsWith("{\\an15", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn15;
+            }
+            else if (p.Text.StartsWith("{\\an16", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn16;
+            }
+            else if (p.Text.StartsWith("{\\an17", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn17;
+            }
+            else if (p.Text.StartsWith("{\\an18", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn18;
+            }
+            else if (p.Text.StartsWith("{\\an19", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn19;
+            }
+            else if (p.Text.StartsWith("{\\an20", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn20;
             }
             else
             {
