@@ -92,6 +92,12 @@ namespace Nikse.SubtitleEdit.Forms
             Done();
         }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Alignment = ContentAlignment.MiddleCenter;
+            Done();
+        }
+
         private void AlignmentPicker_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
@@ -139,5 +145,7 @@ namespace Nikse.SubtitleEdit.Forms
                 button8.Focus();
             }
         }
+
+        
     }
 }
