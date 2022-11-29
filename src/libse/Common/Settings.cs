@@ -843,7 +843,7 @@ $HorzAlign          =   Center
             WebVttCueAn11 = "align:start size:31% position:10% line:100%";
             WebVttCueAn12 = "align:start size:31% position:15% line:100%";
             WebVttCueAn13 = "align:start size:31% position:50% line:100%";
-            WebVttCueAn14 = "";
+            WebVttCueAn14 = "align:middle position:0% line:0%";
 
             MPlayer2Extension = ".txt";
 

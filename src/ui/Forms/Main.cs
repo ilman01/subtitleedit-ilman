@@ -30647,6 +30647,17 @@ namespace Nikse.SubtitleEdit.Forms
                 .Replace("{\\an7}", string.Empty)
                 .Replace("{\\an8}", string.Empty)
                 .Replace("{\\an9}", string.Empty)
+                .Replace("{\\an10}", string.Empty)
+                .Replace("{\\an11}", string.Empty)
+                .Replace("{\\an12}", string.Empty)
+                .Replace("{\\an13}", string.Empty)
+                .Replace("{\\an14}", string.Empty)
+                .Replace("{\\an15}", string.Empty)
+                .Replace("{\\an16}", string.Empty)
+                .Replace("{\\an17}", string.Empty)
+                .Replace("{\\an18}", string.Empty)
+                .Replace("{\\an19}", string.Empty)
+                .Replace("{\\an20}", string.Empty)
 
                 .Replace("{an1\\", "{") // ASS multi tags (start)
                 .Replace("{an2\\", "{")
@@ -30657,6 +30668,17 @@ namespace Nikse.SubtitleEdit.Forms
                 .Replace("{an7\\", "{")
                 .Replace("{an8\\", "{")
                 .Replace("{an9\\", "{")
+                .Replace("{an10\\", "{")
+                .Replace("{an11\\", "{")
+                .Replace("{an12\\", "{")
+                .Replace("{an13\\", "{")
+                .Replace("{an14\\", "{")
+                .Replace("{an15\\", "{")
+                .Replace("{an16\\", "{")
+                .Replace("{an17\\", "{")
+                .Replace("{an18\\", "{")
+                .Replace("{an19\\", "{")
+                .Replace("{an20\\", "{")
 
                 .Replace("\\an1\\", "\\") // ASS multi tags (middle)
                 .Replace("\\an2\\", "\\")
@@ -30667,6 +30689,17 @@ namespace Nikse.SubtitleEdit.Forms
                 .Replace("\\an7\\", "\\")
                 .Replace("\\an8\\", "\\")
                 .Replace("\\an9\\", "\\")
+                .Replace("\\an10\\", "\\")
+                .Replace("\\an11\\", "\\")
+                .Replace("\\an12\\", "\\")
+                .Replace("\\an13\\", "\\")
+                .Replace("\\an14\\", "\\")
+                .Replace("\\an15\\", "\\")
+                .Replace("\\an16\\", "\\")
+                .Replace("\\an17\\", "\\")
+                .Replace("\\an18\\", "\\")
+                .Replace("\\an19\\", "\\")
+                .Replace("\\an20\\", "\\")
 
                 .Replace("\\an1}", "}") // ASS multi tags (end)
                 .Replace("\\an2}", "}")
@@ -30677,6 +30710,17 @@ namespace Nikse.SubtitleEdit.Forms
                 .Replace("\\an7}", "}")
                 .Replace("\\an8}", "}")
                 .Replace("\\an9}", "}")
+                .Replace("\\an10}", "}")
+                .Replace("\\an11}", "}")
+                .Replace("\\an12}", "}")
+                .Replace("\\an13}", "}")
+                .Replace("\\an14}", "}")
+                .Replace("\\an15}", "}")
+                .Replace("\\an16}", "}")
+                .Replace("\\an17}", "}")
+                .Replace("\\an18}", "}")
+                .Replace("\\an19}", "}")
+                .Replace("\\an20}", "}")
 
                 .Replace("{\\a1}", string.Empty) // SSA tags
                 .Replace("{\\a2}", string.Empty)
@@ -30733,6 +30777,52 @@ namespace Nikse.SubtitleEdit.Forms
                 if (f.ShowDialog(this) == DialogResult.OK)
                 {
                     string tag = string.Empty;
+
+                    if (f.ExtraAlign == "an10")
+                    {
+                        tag = "{\\an10}";
+                    }
+                    if (f.ExtraAlign == "an11")
+                    {
+                        tag = "{\\an11}";
+                    }
+                    if (f.ExtraAlign == "an12")
+                    {
+                        tag = "{\\an12}";
+                    }
+                    if (f.ExtraAlign == "an13")
+                    {
+                        tag = "{\\an13}";
+                    }
+                    if (f.ExtraAlign == "an14")
+                    {
+                        tag = "{\\an14}";
+                    }
+                    if (f.ExtraAlign == "an15")
+                    {
+                        tag = "{\\an15}";
+                    }
+                    if (f.ExtraAlign == "an16")
+                    {
+                        tag = "{\\an16}";
+                    }
+                    if (f.ExtraAlign == "an17")
+                    {
+                        tag = "{\\an17}";
+                    }
+                    if (f.ExtraAlign == "an18")
+                    {
+                        tag = "{\\an18}";
+                    }
+                    if (f.ExtraAlign == "an19")
+                    {
+                        tag = "{\\an19}";
+                    }
+                    if (f.ExtraAlign == "an20")
+                    {
+                        tag = "{\\an20}";
+                    }
+
                     if (formatType == typeof(SubStationAlpha))
                     {
                         //1: Bottom left

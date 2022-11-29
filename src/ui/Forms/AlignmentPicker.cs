@@ -8,6 +8,7 @@ namespace Nikse.SubtitleEdit.Forms
     public sealed partial class AlignmentPicker : Form
     {
         public ContentAlignment Alignment { get; private set; }
+        public string ExtraAlign { get; private set; }
         private readonly string _text;
 
         public AlignmentPicker(string text)
@@ -22,7 +23,7 @@ namespace Nikse.SubtitleEdit.Forms
             button3.Text = LanguageSettings.Current.SubStationAlphaStyles.TopRight;
 
             button4.Text = LanguageSettings.Current.SubStationAlphaStyles.MiddleLeft;
-            button5.Text = LanguageSettings.Current.SubStationAlphaStyles.MiddleCenter;
+            button5.Text = "c/l an5";
             button6.Text = LanguageSettings.Current.SubStationAlphaStyles.MiddleRight;
 
             button7.Text = LanguageSettings.Current.SubStationAlphaStyles.BottomLeft;
@@ -94,7 +95,27 @@ namespace Nikse.SubtitleEdit.Forms
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Alignment = ContentAlignment.MiddleCenter;
+            ExtraAlign = "an10";
+            Done();
+        }
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an11";
+            Done();
+        }
+        private void button12_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an12";
+            Done();
+        }
+        private void button13_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an13";
+            Done();
+        }
+        private void button14_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an14";
             Done();
         }
 
@@ -146,6 +167,6 @@ namespace Nikse.SubtitleEdit.Forms
             }
         }
 
-        
+
     }
 }
