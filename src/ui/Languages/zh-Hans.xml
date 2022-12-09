@@ -1771,6 +1771,11 @@ Command line: {1} {2}
     <UsingOnlyFrontCenterChannel>仅使用前置中置音频通道</UsingOnlyFrontCenterChannel>
     <BeforeConvertingColorsToDialog>在将颜色转换为对话框之前</BeforeConvertingColorsToDialog>
     <ConvertedColorsToDialog>将颜色转换为对话框</ConvertedColorsToDialog>
+    <PleaseInstallVideoPlayer>请安装视频播放器</PleaseInstallVideoPlayer>
+    <UnableToPlayMediaFile>SE 无法播放此音/视频文件 (或此文件不是音/视频文件).</UnableToPlayMediaFile>
+    <SubtitleEditNeedsVideoPlayer>Subtitle Edit 需要一个视频播放器组件.</SubtitleEditNeedsVideoPlayer>
+    <UseRecommendMpv>要使用推荐的播放组件 "mpv" 请点击下方按钮.</UseRecommendMpv>
+    <DownloadAndUseMpv>下载并使用 "mpv" 作为视频播放器</DownloadAndUseMpv>
   </Main>
   <MatroskaSubtitleChooser>
     <Title>从 Matroska 文件中选择字幕</Title>
@@ -2193,6 +2198,7 @@ Command line: {1} {2}
     <AutoBackupEveryFiveMinutes>每隔 5 分钟</AutoBackupEveryFiveMinutes>
     <AutoBackupEveryFifteenMinutes>每隔 15 分钟</AutoBackupEveryFifteenMinutes>
     <AutoBackupDeleteAfter>超过此时间后删除</AutoBackupDeleteAfter>
+    <TranslationAutoSuffix>翻译文件名自动后缀</TranslationAutoSuffix>
     <AutoBackupDeleteAfterOneMonth>1个月</AutoBackupDeleteAfterOneMonth>
     <AutoBackupDeleteAfterXMonths>{0}个月</AutoBackupDeleteAfterXMonths>
     <CheckForUpdates>检查更新</CheckForUpdates>

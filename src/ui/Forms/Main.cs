@@ -407,6 +407,8 @@ namespace Nikse.SubtitleEdit.Forms
                 toolStripComboBoxFrameRate.Items.Add(25.0.ToString(CultureInfo.CurrentCulture));
                 toolStripComboBoxFrameRate.Items.Add(29.97.ToString(CultureInfo.CurrentCulture));
                 toolStripComboBoxFrameRate.Items.Add(30.ToString(CultureInfo.CurrentCulture));
+                toolStripComboBoxFrameRate.Items.Add(59.94.ToString(CultureInfo.CurrentCulture));
+                toolStripComboBoxFrameRate.Items.Add(60.ToString(CultureInfo.CurrentCulture));
                 toolStripComboBoxFrameRate.Text = Configuration.Settings.General.DefaultFrameRate.ToString();
                 pictureBoxBookmark.Visible = false;
 
@@ -4811,20 +4813,54 @@ namespace Nikse.SubtitleEdit.Forms
                 saveFileDialog1.InitialDirectory = openFileDialog1.InitialDirectory;
             }
 
+            var suffix = string.Empty;
+            if (_subtitleOriginal != null && SubtitleListview1.IsOriginalTextColumnVisible && !string.IsNullOrEmpty(Configuration.Settings.General.TranslationAutoSuffixDefault))
+            {
+                if (Configuration.Settings.General.TranslationAutoSuffixDefault.StartsWith('<'))
+                {
+                    var translationLangauge = LanguageAutoDetect.AutoDetectGoogleLanguageOrNull(_subtitle);
+                    if (!string.IsNullOrEmpty(translationLangauge))
+                    {
+                        suffix = "." + translationLangauge;
+                    }
+                    else
+                    {
+                        var originalLanguage = LanguageAutoDetect.AutoDetectGoogleLanguage(_subtitleOriginal);
+                        suffix = "." + GenericTranslate.EvaluateDefaultTargetLanguageCode(originalLanguage);
+                    }
+                }
+                else
+                {
+                    suffix = Configuration.Settings.General.TranslationAutoSuffixDefault;
+                }
+            }
+
             if (!string.IsNullOrWhiteSpace(_fileName) && Configuration.Settings.General.SaveAsUseFileNameFrom.Equals("file", StringComparison.OrdinalIgnoreCase))
             {
-                saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_fileName);
+                saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_fileName) + suffix;
                 saveFileDialog1.InitialDirectory = Path.GetDirectoryName(_fileName);
+            }
+            else if (!string.IsNullOrWhiteSpace(_subtitleOriginalFileName) && Configuration.Settings.General.SaveAsUseFileNameFrom.Equals("file", StringComparison.OrdinalIgnoreCase))
+            {
+                var originalLanguage = LanguageAutoDetect.AutoDetectGoogleLanguage(_subtitleOriginal);
+                var fileNameNoExt = Utilities.GetFileNameWithoutExtension(_subtitleOriginalFileName);
+                if (fileNameNoExt.EndsWith("." + originalLanguage, StringComparison.OrdinalIgnoreCase))
+                {
+                    fileNameNoExt = fileNameNoExt.Substring(0, fileNameNoExt.Length - ("." + originalLanguage).Length);
+                }
+
+                saveFileDialog1.FileName = fileNameNoExt + suffix;
+                saveFileDialog1.InitialDirectory = Path.GetDirectoryName(_subtitleOriginalFileName);
             }
             else if (!string.IsNullOrEmpty(_videoFileName) && Configuration.Settings.General.SaveAsUseFileNameFrom.Equals("video", StringComparison.OrdinalIgnoreCase))
             {
                 if (_converted && !string.IsNullOrEmpty(_fileName) && !File.Exists(_fileName))
                 {
-                    saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_fileName);
+                    saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_fileName) + suffix;
                 }
                 else
                 {
-                    saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_videoFileName);
+                    saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_videoFileName) + suffix;
                 }
 
                 saveFileDialog1.InitialDirectory = Path.GetDirectoryName(_videoFileName);
@@ -4838,6 +4874,18 @@ namespace Nikse.SubtitleEdit.Forms
             {
                 saveFileDialog1.FileName = Utilities.GetFileNameWithoutExtension(_videoFileName);
                 saveFileDialog1.InitialDirectory = Path.GetDirectoryName(_videoFileName);
+            }
+            else if (!string.IsNullOrWhiteSpace(_subtitleOriginalFileName))
+            {
+                var originalLanguage = LanguageAutoDetect.AutoDetectGoogleLanguage(_subtitleOriginal);
+                var fileNameNoExt = Utilities.GetFileNameWithoutExtension(_subtitleOriginalFileName);
+                if (fileNameNoExt.EndsWith("." + originalLanguage, StringComparison.OrdinalIgnoreCase))
+                {
+                    fileNameNoExt = fileNameNoExt.Substring(0, fileNameNoExt.Length - ("." + originalLanguage).Length);
+                }
+
+                saveFileDialog1.FileName = fileNameNoExt + suffix;
+                saveFileDialog1.InitialDirectory = Path.GetDirectoryName(_subtitleOriginalFileName);
             }
             else
             {
@@ -21791,6 +21839,13 @@ namespace Nikse.SubtitleEdit.Forms
                 }
 
                 var defaultLocation = Path.Combine(Configuration.DataDirectory, "ffmpeg", "ffmpeg.exe");
+                if (File.Exists(defaultLocation))
+                {
+                    Configuration.Settings.General.FFmpegLocation = defaultLocation;
+                    return;
+                }
+
+                defaultLocation = Path.Combine(Configuration.DataDirectory, "ffmpeg.exe");
                 if (File.Exists(defaultLocation))
                 {
                     Configuration.Settings.General.FFmpegLocation = defaultLocation;

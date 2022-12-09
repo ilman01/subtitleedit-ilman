@@ -199,6 +199,7 @@ namespace Nikse.SubtitleEdit.Forms.AudioToText
             {
                 Application.DoEvents();
                 System.Threading.Thread.Sleep(100);
+                WindowsHelper.PreventStandBy();
 
                 Invalidate();
                 if (_cancel)
@@ -366,6 +367,11 @@ namespace Nikse.SubtitleEdit.Forms.AudioToText
                 linkLabelWhisperWebsite_LinkClicked(null, null);
                 e.SuppressKeyPress = true;
             }
+            else if (e.KeyData == UiUtil.HelpKeys)
+            {
+                UiUtil.ShowHelp("#audio_to_text");
+                e.SuppressKeyPress = true;
+            }
         }
 
         private void UpdateLog()
@@ -436,7 +442,7 @@ namespace Nikse.SubtitleEdit.Forms.AudioToText
                 {
                     using (var openFileDialog1 = new OpenFileDialog())
                     {
-                        openFileDialog1.Title = "Locate whisper.exe (php version)";
+                        openFileDialog1.Title = "Locate whisper.exe (OpenAI php version)";
                         openFileDialog1.FileName = string.Empty;
                         openFileDialog1.Filter = "whisper.exe|whisper.exe";
 

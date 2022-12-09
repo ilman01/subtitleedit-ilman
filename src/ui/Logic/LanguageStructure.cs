@@ -1533,6 +1533,11 @@ namespace Nikse.SubtitleEdit.Logic
             public string UsingOnlyFrontCenterChannel { get; set; }
             public string BeforeConvertingColorsToDialog { get; set; }
             public string ConvertedColorsToDialog { get; set; }
+            public string PleaseInstallVideoPlayer { get; set; }
+            public string UnableToPlayMediaFile { get; set; }
+            public string SubtitleEditNeedsVideoPlayer { get; set; }
+            public string UseRecommendMpv { get; set; }
+            public string DownloadAndUseMpv { get; set; }
 
             public class MainMenu
             {
@@ -2388,6 +2393,7 @@ namespace Nikse.SubtitleEdit.Logic
             public string AutoBackupEveryFiveMinutes { get; set; }
             public string AutoBackupEveryFifteenMinutes { get; set; }
             public string AutoBackupDeleteAfter { get; set; }
+            public string TranslationAutoSuffix { get; set; }
             public string AutoBackupDeleteAfterOneMonth { get; set; }
             public string AutoBackupDeleteAfterXMonths { get; set; }
             public string CheckForUpdates { get; set; }
