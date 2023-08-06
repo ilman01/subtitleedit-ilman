@@ -174,6 +174,322 @@ namespace Nikse.SubtitleEdit.Core.SubtitleFormats
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn20;
             }
+            else if (p.Text.StartsWith("{\\an21", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn21;
+            }
+            else if (p.Text.StartsWith("{\\an22", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn22;
+            }
+            else if (p.Text.StartsWith("{\\an23", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn23;
+            }
+            else if (p.Text.StartsWith("{\\an24", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn24;
+            }
+            else if (p.Text.StartsWith("{\\an25", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn25;
+            }
+            else if (p.Text.StartsWith("{\\an26", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn26;
+            }
+            else if (p.Text.StartsWith("{\\an27", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn27;
+            }
+            else if (p.Text.StartsWith("{\\an28", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn28;
+            }
+            else if (p.Text.StartsWith("{\\an29", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn29;
+            }
+            else if (p.Text.StartsWith("{\\an30", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn30;
+            }
+            else if (p.Text.StartsWith("{\\an31", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn31;
+            }
+            else if (p.Text.StartsWith("{\\an32", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn32;
+            }
+            else if (p.Text.StartsWith("{\\an33", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn33;
+            }
+            else if (p.Text.StartsWith("{\\an34", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn34;
+            }
+            else if (p.Text.StartsWith("{\\an35", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn35;
+            }
+            else if (p.Text.StartsWith("{\\an36", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn36;
+            }
+            else if (p.Text.StartsWith("{\\an37", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn37;
+            }
+            else if (p.Text.StartsWith("{\\an38", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn38;
+            }
+            else if (p.Text.StartsWith("{\\an39", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn39;
+            }
+            else if (p.Text.StartsWith("{\\an40", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn40;
+            }
+            else if (p.Text.StartsWith("{\\an41", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn41;
+            }
+            else if (p.Text.StartsWith("{\\an42", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn42;
+            }
+            else if (p.Text.StartsWith("{\\an43", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn43;
+            }
+            else if (p.Text.StartsWith("{\\an44", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn44;
+            }
+            else if (p.Text.StartsWith("{\\an45", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn45;
+            }
+            else if (p.Text.StartsWith("{\\an46", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn46;
+            }
+            else if (p.Text.StartsWith("{\\an47", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn47;
+            }
+            else if (p.Text.StartsWith("{\\an48", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn48;
+            }
+            else if (p.Text.StartsWith("{\\an49", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn49;
+            }
+            else if (p.Text.StartsWith("{\\an50", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn50;
+            }
+            else if (p.Text.StartsWith("{\\an51", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn51;
+            }
+            else if (p.Text.StartsWith("{\\an52", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn52;
+            }
+            else if (p.Text.StartsWith("{\\an53", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn53;
+            }
+            else if (p.Text.StartsWith("{\\an54", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn54;
+            }
+            else if (p.Text.StartsWith("{\\an55", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn55;
+            }
+            else if (p.Text.StartsWith("{\\an56", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn56;
+            }
+            else if (p.Text.StartsWith("{\\an57", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn57;
+            }
+            else if (p.Text.StartsWith("{\\an58", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn58;
+            }
+            else if (p.Text.StartsWith("{\\an59", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn59;
+            }
+            else if (p.Text.StartsWith("{\\an60", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn60;
+            }
+            else if (p.Text.StartsWith("{\\an61", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn61;
+            }
+            else if (p.Text.StartsWith("{\\an62", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn62;
+            }
+            else if (p.Text.StartsWith("{\\an63", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn63;
+            }
+            else if (p.Text.StartsWith("{\\an64", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn64;
+            }
+            else if (p.Text.StartsWith("{\\an65", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn65;
+            }
+            else if (p.Text.StartsWith("{\\an66", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn66;
+            }
+            else if (p.Text.StartsWith("{\\an67", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn67;
+            }
+            else if (p.Text.StartsWith("{\\an68", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn68;
+            }
+            else if (p.Text.StartsWith("{\\an69", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn69;
+            }
+            else if (p.Text.StartsWith("{\\an70", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn70;
+            }
+            else if (p.Text.StartsWith("{\\an71", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn71;
+            }
+            else if (p.Text.StartsWith("{\\an72", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn72;
+            }
+            else if (p.Text.StartsWith("{\\an73", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn73;
+            }
+            else if (p.Text.StartsWith("{\\an74", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn74;
+            }
+            else if (p.Text.StartsWith("{\\an75", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn75;
+            }
+            else if (p.Text.StartsWith("{\\an76", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn76;
+            }
+            else if (p.Text.StartsWith("{\\an77", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn77;
+            }
+            else if (p.Text.StartsWith("{\\an78", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn78;
+            }
+            else if (p.Text.StartsWith("{\\an79", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn79;
+            }
+            else if (p.Text.StartsWith("{\\an80", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn80;
+            }
+            else if (p.Text.StartsWith("{\\an81", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn81;
+            }
+            else if (p.Text.StartsWith("{\\an82", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn82;
+            }
+            else if (p.Text.StartsWith("{\\an83", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn83;
+            }
+            else if (p.Text.StartsWith("{\\an84", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn84;
+            }
+            else if (p.Text.StartsWith("{\\an85", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn85;
+            }
+            else if (p.Text.StartsWith("{\\an86", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn86;
+            }
+            else if (p.Text.StartsWith("{\\an87", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn87;
+            }
+            else if (p.Text.StartsWith("{\\an88", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn88;
+            }
+            else if (p.Text.StartsWith("{\\an89", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn89;
+            }
+            else if (p.Text.StartsWith("{\\an90", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn90;
+            }
+            else if (p.Text.StartsWith("{\\an91", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn91;
+            }
+            else if (p.Text.StartsWith("{\\an92", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn92;
+            }
+            else if (p.Text.StartsWith("{\\an93", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn93;
+            }
+            else if (p.Text.StartsWith("{\\an94", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn94;
+            }
+            else if (p.Text.StartsWith("{\\an95", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn95;
+            }
+            else if (p.Text.StartsWith("{\\an96", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn96;
+            }
+            else if (p.Text.StartsWith("{\\an97", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn97;
+            }
+            else if (p.Text.StartsWith("{\\an98", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn98;
+            }
+            else if (p.Text.StartsWith("{\\an99", StringComparison.Ordinal))
+            {
+                positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn99;
+            }
             else
             {
                 positionInfo = Configuration.Settings.SubtitleSettings.WebVttCueAn2;

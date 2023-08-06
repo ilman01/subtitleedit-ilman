@@ -30902,6 +30902,322 @@ namespace Nikse.SubtitleEdit.Forms
                     {
                         tag = "{\\an20}";
                     }
+                    if (f.ExtraAlign == "an21")
+                    {
+                        tag = "{\\an21}";
+                    }
+                    if (f.ExtraAlign == "an22")
+                    {
+                        tag = "{\\an22}";
+                    }
+                    if (f.ExtraAlign == "an23")
+                    {
+                        tag = "{\\an23}";
+                    }
+                    if (f.ExtraAlign == "an24")
+                    {
+                        tag = "{\\an24}";
+                    }
+                    if (f.ExtraAlign == "an25")
+                    {
+                        tag = "{\\an25}";
+                    }
+                    if (f.ExtraAlign == "an26")
+                    {
+                        tag = "{\\an26}";
+                    }
+                    if (f.ExtraAlign == "an27")
+                    {
+                        tag = "{\\an27}";
+                    }
+                    if (f.ExtraAlign == "an28")
+                    {
+                        tag = "{\\an28}";
+                    }
+                    if (f.ExtraAlign == "an29")
+                    {
+                        tag = "{\\an29}";
+                    }
+                    if (f.ExtraAlign == "an30")
+                    {
+                        tag = "{\\an30}";
+                    }
+                    if (f.ExtraAlign == "an31")
+                    {
+                        tag = "{\\an31}";
+                    }
+                    if (f.ExtraAlign == "an32")
+                    {
+                        tag = "{\\an32}";
+                    }
+                    if (f.ExtraAlign == "an33")
+                    {
+                        tag = "{\\an33}";
+                    }
+                    if (f.ExtraAlign == "an34")
+                    {
+                        tag = "{\\an34}";
+                    }
+                    if (f.ExtraAlign == "an35")
+                    {
+                        tag = "{\\an35}";
+                    }
+                    if (f.ExtraAlign == "an36")
+                    {
+                        tag = "{\\an36}";
+                    }
+                    if (f.ExtraAlign == "an37")
+                    {
+                        tag = "{\\an37}";
+                    }
+                    if (f.ExtraAlign == "an38")
+                    {
+                        tag = "{\\an38}";
+                    }
+                    if (f.ExtraAlign == "an39")
+                    {
+                        tag = "{\\an39}";
+                    }
+                    if (f.ExtraAlign == "an40")
+                    {
+                        tag = "{\\an40}";
+                    }
+                    if (f.ExtraAlign == "an41")
+                    {
+                        tag = "{\\an41}";
+                    }
+                    if (f.ExtraAlign == "an42")
+                    {
+                        tag = "{\\an42}";
+                    }
+                    if (f.ExtraAlign == "an43")
+                    {
+                        tag = "{\\an43}";
+                    }
+                    if (f.ExtraAlign == "an44")
+                    {
+                        tag = "{\\an44}";
+                    }
+                    if (f.ExtraAlign == "an45")
+                    {
+                        tag = "{\\an45}";
+                    }
+                    if (f.ExtraAlign == "an46")
+                    {
+                        tag = "{\\an46}";
+                    }
+                    if (f.ExtraAlign == "an47")
+                    {
+                        tag = "{\\an47}";
+                    }
+                    if (f.ExtraAlign == "an48")
+                    {
+                        tag = "{\\an48}";
+                    }
+                    if (f.ExtraAlign == "an49")
+                    {
+                        tag = "{\\an49}";
+                    }
+                    if (f.ExtraAlign == "an50")
+                    {
+                        tag = "{\\an50}";
+                    }
+                    if (f.ExtraAlign == "an51")
+                    {
+                        tag = "{\\an51}";
+                    }
+                    if (f.ExtraAlign == "an52")
+                    {
+                        tag = "{\\an52}";
+                    }
+                    if (f.ExtraAlign == "an53")
+                    {
+                        tag = "{\\an53}";
+                    }
+                    if (f.ExtraAlign == "an54")
+                    {
+                        tag = "{\\an54}";
+                    }
+                    if (f.ExtraAlign == "an55")
+                    {
+                        tag = "{\\an55}";
+                    }
+                    if (f.ExtraAlign == "an56")
+                    {
+                        tag = "{\\an56}";
+                    }
+                    if (f.ExtraAlign == "an57")
+                    {
+                        tag = "{\\an57}";
+                    }
+                    if (f.ExtraAlign == "an58")
+                    {
+                        tag = "{\\an58}";
+                    }
+                    if (f.ExtraAlign == "an59")
+                    {
+                        tag = "{\\an59}";
+                    }
+                    if (f.ExtraAlign == "an60")
+                    {
+                        tag = "{\\an60}";
+                    }
+                    if (f.ExtraAlign == "an61")
+                    {
+                        tag = "{\\an61}";
+                    }
+                    if (f.ExtraAlign == "an62")
+                    {
+                        tag = "{\\an62}";
+                    }
+                    if (f.ExtraAlign == "an63")
+                    {
+                        tag = "{\\an63}";
+                    }
+                    if (f.ExtraAlign == "an64")
+                    {
+                        tag = "{\\an64}";
+                    }
+                    if (f.ExtraAlign == "an65")
+                    {
+                        tag = "{\\an65}";
+                    }
+                    if (f.ExtraAlign == "an66")
+                    {
+                        tag = "{\\an66}";
+                    }
+                    if (f.ExtraAlign == "an67")
+                    {
+                        tag = "{\\an67}";
+                    }
+                    if (f.ExtraAlign == "an68")
+                    {
+                        tag = "{\\an68}";
+                    }
+                    if (f.ExtraAlign == "an69")
+                    {
+                        tag = "{\\an69}";
+                    }
+                    if (f.ExtraAlign == "an70")
+                    {
+                        tag = "{\\an70}";
+                    }
+                    if (f.ExtraAlign == "an71")
+                    {
+                        tag = "{\\an71}";
+                    }
+                    if (f.ExtraAlign == "an72")
+                    {
+                        tag = "{\\an72}";
+                    }
+                    if (f.ExtraAlign == "an73")
+                    {
+                        tag = "{\\an73}";
+                    }
+                    if (f.ExtraAlign == "an74")
+                    {
+                        tag = "{\\an74}";
+                    }
+                    if (f.ExtraAlign == "an75")
+                    {
+                        tag = "{\\an75}";
+                    }
+                    if (f.ExtraAlign == "an76")
+                    {
+                        tag = "{\\an76}";
+                    }
+                    if (f.ExtraAlign == "an77")
+                    {
+                        tag = "{\\an77}";
+                    }
+                    if (f.ExtraAlign == "an78")
+                    {
+                        tag = "{\\an78}";
+                    }
+                    if (f.ExtraAlign == "an79")
+                    {
+                        tag = "{\\an79}";
+                    }
+                    if (f.ExtraAlign == "an80")
+                    {
+                        tag = "{\\an80}";
+                    }
+                    if (f.ExtraAlign == "an81")
+                    {
+                        tag = "{\\an81}";
+                    }
+                    if (f.ExtraAlign == "an82")
+                    {
+                        tag = "{\\an82}";
+                    }
+                    if (f.ExtraAlign == "an83")
+                    {
+                        tag = "{\\an83}";
+                    }
+                    if (f.ExtraAlign == "an84")
+                    {
+                        tag = "{\\an84}";
+                    }
+                    if (f.ExtraAlign == "an85")
+                    {
+                        tag = "{\\an85}";
+                    }
+                    if (f.ExtraAlign == "an86")
+                    {
+                        tag = "{\\an86}";
+                    }
+                    if (f.ExtraAlign == "an87")
+                    {
+                        tag = "{\\an87}";
+                    }
+                    if (f.ExtraAlign == "an88")
+                    {
+                        tag = "{\\an88}";
+                    }
+                    if (f.ExtraAlign == "an89")
+                    {
+                        tag = "{\\an89}";
+                    }
+                    if (f.ExtraAlign == "an90")
+                    {
+                        tag = "{\\an90}";
+                    }
+                    if (f.ExtraAlign == "an91")
+                    {
+                        tag = "{\\an91}";
+                    }
+                    if (f.ExtraAlign == "an92")
+                    {
+                        tag = "{\\an92}";
+                    }
+                    if (f.ExtraAlign == "an93")
+                    {
+                        tag = "{\\an93}";
+                    }
+                    if (f.ExtraAlign == "an94")
+                    {
+                        tag = "{\\an94}";
+                    }
+                    if (f.ExtraAlign == "an95")
+                    {
+                        tag = "{\\an95}";
+                    }
+                    if (f.ExtraAlign == "an96")
+                    {
+                        tag = "{\\an96}";
+                    }
+                    if (f.ExtraAlign == "an97")
+                    {
+                        tag = "{\\an97}";
+                    }
+                    if (f.ExtraAlign == "an98")
+                    {
+                        tag = "{\\an98}";
+                    }
+                    if (f.ExtraAlign == "an99")
+                    {
+                        tag = "{\\an99}";
+                    }
 
                     if (formatType == typeof(SubStationAlpha))
                     {

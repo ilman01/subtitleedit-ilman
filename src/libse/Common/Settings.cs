@@ -759,6 +759,86 @@ namespace Nikse.SubtitleEdit.Core.Common
         public string WebVttCueAn18 { get; set; }
         public string WebVttCueAn19 { get; set; }
         public string WebVttCueAn20 { get; set; }
+        public string WebVttCueAn21 { get; set; }
+        public string WebVttCueAn22 { get; set; }
+        public string WebVttCueAn23 { get; set; }
+        public string WebVttCueAn24 { get; set; }
+        public string WebVttCueAn25 { get; set; }
+        public string WebVttCueAn26 { get; set; }
+        public string WebVttCueAn27 { get; set; }
+        public string WebVttCueAn28 { get; set; }
+        public string WebVttCueAn29 { get; set; }
+        public string WebVttCueAn30 { get; set; }
+        public string WebVttCueAn31 { get; set; }
+        public string WebVttCueAn32 { get; set; }
+        public string WebVttCueAn33 { get; set; }
+        public string WebVttCueAn34 { get; set; }
+        public string WebVttCueAn35 { get; set; }
+        public string WebVttCueAn36 { get; set; }
+        public string WebVttCueAn37 { get; set; }
+        public string WebVttCueAn38 { get; set; }
+        public string WebVttCueAn39 { get; set; }
+        public string WebVttCueAn40 { get; set; }
+        public string WebVttCueAn41 { get; set; }
+        public string WebVttCueAn42 { get; set; }
+        public string WebVttCueAn43 { get; set; }
+        public string WebVttCueAn44 { get; set; }
+        public string WebVttCueAn45 { get; set; }
+        public string WebVttCueAn46 { get; set; }
+        public string WebVttCueAn47 { get; set; }
+        public string WebVttCueAn48 { get; set; }
+        public string WebVttCueAn49 { get; set; }
+        public string WebVttCueAn50 { get; set; }
+        public string WebVttCueAn51 { get; set; }
+        public string WebVttCueAn52 { get; set; }
+        public string WebVttCueAn53 { get; set; }
+        public string WebVttCueAn54 { get; set; }
+        public string WebVttCueAn55 { get; set; }
+        public string WebVttCueAn56 { get; set; }
+        public string WebVttCueAn57 { get; set; }
+        public string WebVttCueAn58 { get; set; }
+        public string WebVttCueAn59 { get; set; }
+        public string WebVttCueAn60 { get; set; }
+        public string WebVttCueAn61 { get; set; }
+        public string WebVttCueAn62 { get; set; }
+        public string WebVttCueAn63 { get; set; }
+        public string WebVttCueAn64 { get; set; }
+        public string WebVttCueAn65 { get; set; }
+        public string WebVttCueAn66 { get; set; }
+        public string WebVttCueAn67 { get; set; }
+        public string WebVttCueAn68 { get; set; }
+        public string WebVttCueAn69 { get; set; }
+        public string WebVttCueAn70 { get; set; }
+        public string WebVttCueAn71 { get; set; }
+        public string WebVttCueAn72 { get; set; }
+        public string WebVttCueAn73 { get; set; }
+        public string WebVttCueAn74 { get; set; }
+        public string WebVttCueAn75 { get; set; }
+        public string WebVttCueAn76 { get; set; }
+        public string WebVttCueAn77 { get; set; }
+        public string WebVttCueAn78 { get; set; }
+        public string WebVttCueAn79 { get; set; }
+        public string WebVttCueAn80 { get; set; }
+        public string WebVttCueAn81 { get; set; }
+        public string WebVttCueAn82 { get; set; }
+        public string WebVttCueAn83 { get; set; }
+        public string WebVttCueAn84 { get; set; }
+        public string WebVttCueAn85 { get; set; }
+        public string WebVttCueAn86 { get; set; }
+        public string WebVttCueAn87 { get; set; }
+        public string WebVttCueAn88 { get; set; }
+        public string WebVttCueAn89 { get; set; }
+        public string WebVttCueAn90 { get; set; }
+        public string WebVttCueAn91 { get; set; }
+        public string WebVttCueAn92 { get; set; }
+        public string WebVttCueAn93 { get; set; }
+        public string WebVttCueAn94 { get; set; }
+        public string WebVttCueAn95 { get; set; }
+        public string WebVttCueAn96 { get; set; }
+        public string WebVttCueAn97 { get; set; }
+        public string WebVttCueAn98 { get; set; }
+        public string WebVttCueAn99 { get; set; }
+
         public string MPlayer2Extension { get; set; }
         public bool TeletextItalicFix { get; set; }
         public bool MccDebug { get; set; }
@@ -6762,6 +6842,480 @@ $HorzAlign          =   Center
                     settings.SubtitleSettings.WebVttCueAn20 = subNode.InnerText;
                 }
 
+                subNode = node.SelectSingleNode("WebVttCueAn21");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn21 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn22");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn22 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn23");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn23 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn24");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn24 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn25");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn25 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn26");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn26 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn27");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn27 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn28");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn28 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn29");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn29 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn30");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn30 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn31");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn31 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn32");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn32 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn33");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn33 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn34");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn34 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn35");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn35 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn36");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn36 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn37");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn37 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn38");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn38 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn39");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn39 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn40");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn40 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn41");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn41 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn42");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn42 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn43");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn43 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn44");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn44 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn45");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn45 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn46");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn46 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn47");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn47 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn48");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn48 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn49");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn49 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn50");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn50 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn51");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn51 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn52");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn52 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn53");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn53 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn54");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn54 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn55");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn55 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn56");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn56 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn57");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn57 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn58");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn58 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn59");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn59 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn60");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn60 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn61");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn61 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn62");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn62 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn63");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn63 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn64");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn64 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn65");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn65 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn66");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn66 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn67");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn67 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn68");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn68 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn69");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn69 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn70");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn70 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn71");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn71 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn72");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn72 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn73");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn73 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn74");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn74 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn75");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn75 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn76");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn76 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn77");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn77 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn78");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn78 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn79");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn79 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn80");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn80 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn81");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn81 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn82");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn82 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn83");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn83 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn84");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn84 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn85");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn85 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn86");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn86 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn87");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn87 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn88");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn88 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn89");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn89 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn90");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn90 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn91");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn91 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn92");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn92 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn93");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn93 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn94");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn94 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn95");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn95 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn96");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn96 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn97");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn97 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn98");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn98 = subNode.InnerText;
+                }
+
+                subNode = node.SelectSingleNode("WebVttCueAn99");
+                if (subNode != null)
+                {
+                    settings.SubtitleSettings.WebVttCueAn99 = subNode.InnerText;
+                }
+
                 subNode = node.SelectSingleNode("MPlayer2Extension");
                 if (subNode != null)
                 {
@@ -10672,6 +11226,85 @@ $HorzAlign          =   Center
                 textWriter.WriteElementString("WebVttCueAn18", settings.SubtitleSettings.WebVttCueAn18);
                 textWriter.WriteElementString("WebVttCueAn19", settings.SubtitleSettings.WebVttCueAn19);
                 textWriter.WriteElementString("WebVttCueAn20", settings.SubtitleSettings.WebVttCueAn20);
+                textWriter.WriteElementString("WebVttCueAn21", settings.SubtitleSettings.WebVttCueAn21);
+                textWriter.WriteElementString("WebVttCueAn22", settings.SubtitleSettings.WebVttCueAn22);
+                textWriter.WriteElementString("WebVttCueAn23", settings.SubtitleSettings.WebVttCueAn23);
+                textWriter.WriteElementString("WebVttCueAn24", settings.SubtitleSettings.WebVttCueAn24);
+                textWriter.WriteElementString("WebVttCueAn25", settings.SubtitleSettings.WebVttCueAn25);
+                textWriter.WriteElementString("WebVttCueAn26", settings.SubtitleSettings.WebVttCueAn26);
+                textWriter.WriteElementString("WebVttCueAn27", settings.SubtitleSettings.WebVttCueAn27);
+                textWriter.WriteElementString("WebVttCueAn28", settings.SubtitleSettings.WebVttCueAn28);
+                textWriter.WriteElementString("WebVttCueAn29", settings.SubtitleSettings.WebVttCueAn29);
+                textWriter.WriteElementString("WebVttCueAn30", settings.SubtitleSettings.WebVttCueAn30);
+                textWriter.WriteElementString("WebVttCueAn31", settings.SubtitleSettings.WebVttCueAn31);
+                textWriter.WriteElementString("WebVttCueAn32", settings.SubtitleSettings.WebVttCueAn32);
+                textWriter.WriteElementString("WebVttCueAn33", settings.SubtitleSettings.WebVttCueAn33);
+                textWriter.WriteElementString("WebVttCueAn34", settings.SubtitleSettings.WebVttCueAn34);
+                textWriter.WriteElementString("WebVttCueAn35", settings.SubtitleSettings.WebVttCueAn35);
+                textWriter.WriteElementString("WebVttCueAn36", settings.SubtitleSettings.WebVttCueAn36);
+                textWriter.WriteElementString("WebVttCueAn37", settings.SubtitleSettings.WebVttCueAn37);
+                textWriter.WriteElementString("WebVttCueAn38", settings.SubtitleSettings.WebVttCueAn38);
+                textWriter.WriteElementString("WebVttCueAn39", settings.SubtitleSettings.WebVttCueAn39);
+                textWriter.WriteElementString("WebVttCueAn40", settings.SubtitleSettings.WebVttCueAn40);
+                textWriter.WriteElementString("WebVttCueAn41", settings.SubtitleSettings.WebVttCueAn41);
+                textWriter.WriteElementString("WebVttCueAn42", settings.SubtitleSettings.WebVttCueAn42);
+                textWriter.WriteElementString("WebVttCueAn43", settings.SubtitleSettings.WebVttCueAn43);
+                textWriter.WriteElementString("WebVttCueAn44", settings.SubtitleSettings.WebVttCueAn44);
+                textWriter.WriteElementString("WebVttCueAn45", settings.SubtitleSettings.WebVttCueAn45);
+                textWriter.WriteElementString("WebVttCueAn46", settings.SubtitleSettings.WebVttCueAn46);
+                textWriter.WriteElementString("WebVttCueAn47", settings.SubtitleSettings.WebVttCueAn47);
+                textWriter.WriteElementString("WebVttCueAn48", settings.SubtitleSettings.WebVttCueAn48);
+                textWriter.WriteElementString("WebVttCueAn49", settings.SubtitleSettings.WebVttCueAn49);
+                textWriter.WriteElementString("WebVttCueAn50", settings.SubtitleSettings.WebVttCueAn50);
+                textWriter.WriteElementString("WebVttCueAn51", settings.SubtitleSettings.WebVttCueAn51);
+                textWriter.WriteElementString("WebVttCueAn52", settings.SubtitleSettings.WebVttCueAn52);
+                textWriter.WriteElementString("WebVttCueAn53", settings.SubtitleSettings.WebVttCueAn53);
+                textWriter.WriteElementString("WebVttCueAn54", settings.SubtitleSettings.WebVttCueAn54);
+                textWriter.WriteElementString("WebVttCueAn55", settings.SubtitleSettings.WebVttCueAn55);
+                textWriter.WriteElementString("WebVttCueAn56", settings.SubtitleSettings.WebVttCueAn56);
+                textWriter.WriteElementString("WebVttCueAn57", settings.SubtitleSettings.WebVttCueAn57);
+                textWriter.WriteElementString("WebVttCueAn58", settings.SubtitleSettings.WebVttCueAn58);
+                textWriter.WriteElementString("WebVttCueAn59", settings.SubtitleSettings.WebVttCueAn59);
+                textWriter.WriteElementString("WebVttCueAn60", settings.SubtitleSettings.WebVttCueAn60);
+                textWriter.WriteElementString("WebVttCueAn61", settings.SubtitleSettings.WebVttCueAn61);
+                textWriter.WriteElementString("WebVttCueAn62", settings.SubtitleSettings.WebVttCueAn62);
+                textWriter.WriteElementString("WebVttCueAn63", settings.SubtitleSettings.WebVttCueAn63);
+                textWriter.WriteElementString("WebVttCueAn64", settings.SubtitleSettings.WebVttCueAn64);
+                textWriter.WriteElementString("WebVttCueAn65", settings.SubtitleSettings.WebVttCueAn65);
+                textWriter.WriteElementString("WebVttCueAn66", settings.SubtitleSettings.WebVttCueAn66);
+                textWriter.WriteElementString("WebVttCueAn67", settings.SubtitleSettings.WebVttCueAn67);
+                textWriter.WriteElementString("WebVttCueAn68", settings.SubtitleSettings.WebVttCueAn68);
+                textWriter.WriteElementString("WebVttCueAn69", settings.SubtitleSettings.WebVttCueAn69);
+                textWriter.WriteElementString("WebVttCueAn70", settings.SubtitleSettings.WebVttCueAn70);
+                textWriter.WriteElementString("WebVttCueAn71", settings.SubtitleSettings.WebVttCueAn71);
+                textWriter.WriteElementString("WebVttCueAn72", settings.SubtitleSettings.WebVttCueAn72);
+                textWriter.WriteElementString("WebVttCueAn73", settings.SubtitleSettings.WebVttCueAn73);
+                textWriter.WriteElementString("WebVttCueAn74", settings.SubtitleSettings.WebVttCueAn74);
+                textWriter.WriteElementString("WebVttCueAn75", settings.SubtitleSettings.WebVttCueAn75);
+                textWriter.WriteElementString("WebVttCueAn76", settings.SubtitleSettings.WebVttCueAn76);
+                textWriter.WriteElementString("WebVttCueAn77", settings.SubtitleSettings.WebVttCueAn77);
+                textWriter.WriteElementString("WebVttCueAn78", settings.SubtitleSettings.WebVttCueAn78);
+                textWriter.WriteElementString("WebVttCueAn79", settings.SubtitleSettings.WebVttCueAn79);
+                textWriter.WriteElementString("WebVttCueAn80", settings.SubtitleSettings.WebVttCueAn80);
+                textWriter.WriteElementString("WebVttCueAn81", settings.SubtitleSettings.WebVttCueAn81);
+                textWriter.WriteElementString("WebVttCueAn82", settings.SubtitleSettings.WebVttCueAn82);
+                textWriter.WriteElementString("WebVttCueAn83", settings.SubtitleSettings.WebVttCueAn83);
+                textWriter.WriteElementString("WebVttCueAn84", settings.SubtitleSettings.WebVttCueAn84);
+                textWriter.WriteElementString("WebVttCueAn85", settings.SubtitleSettings.WebVttCueAn85);
+                textWriter.WriteElementString("WebVttCueAn86", settings.SubtitleSettings.WebVttCueAn86);
+                textWriter.WriteElementString("WebVttCueAn87", settings.SubtitleSettings.WebVttCueAn87);
+                textWriter.WriteElementString("WebVttCueAn88", settings.SubtitleSettings.WebVttCueAn88);
+                textWriter.WriteElementString("WebVttCueAn89", settings.SubtitleSettings.WebVttCueAn89);
+                textWriter.WriteElementString("WebVttCueAn90", settings.SubtitleSettings.WebVttCueAn90);
+                textWriter.WriteElementString("WebVttCueAn91", settings.SubtitleSettings.WebVttCueAn91);
+                textWriter.WriteElementString("WebVttCueAn92", settings.SubtitleSettings.WebVttCueAn92);
+                textWriter.WriteElementString("WebVttCueAn93", settings.SubtitleSettings.WebVttCueAn93);
+                textWriter.WriteElementString("WebVttCueAn94", settings.SubtitleSettings.WebVttCueAn94);
+                textWriter.WriteElementString("WebVttCueAn95", settings.SubtitleSettings.WebVttCueAn95);
+                textWriter.WriteElementString("WebVttCueAn96", settings.SubtitleSettings.WebVttCueAn96);
+                textWriter.WriteElementString("WebVttCueAn97", settings.SubtitleSettings.WebVttCueAn97);
+                textWriter.WriteElementString("WebVttCueAn98", settings.SubtitleSettings.WebVttCueAn98);
+                textWriter.WriteElementString("WebVttCueAn99", settings.SubtitleSettings.WebVttCueAn99);
                 textWriter.WriteElementString("MPlayer2Extension", settings.SubtitleSettings.MPlayer2Extension);
                 textWriter.WriteElementString("TeletextItalicFix", settings.SubtitleSettings.TeletextItalicFix.ToString(CultureInfo.InvariantCulture));
                 textWriter.WriteElementString("MccDebug", settings.SubtitleSettings.MccDebug.ToString(CultureInfo.InvariantCulture));
