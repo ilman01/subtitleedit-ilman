@@ -174,6 +174,71 @@ namespace Nikse.SubtitleEdit.Forms
             Done();
         }
 
+        private void button26_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an26";
+            Done();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an27";
+            Done();
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an28";
+            Done();
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an29";
+            Done();
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an30";
+            Done();
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an31";
+            Done();
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an32";
+            Done();
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an33";
+            Done();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an34";
+            Done();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an35";
+            Done();
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an36";
+            Done();
+        }
         private void AlignmentPicker_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
@@ -222,6 +287,16 @@ namespace Nikse.SubtitleEdit.Forms
             }
         }
 
+        private void label1_Click_1(object sender, EventArgs e)
+        {
 
+        }
+
+       
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
