@@ -143,6 +143,36 @@ namespace Nikse.SubtitleEdit.Forms
             ExtraAlign = "an19";
             Done();
         }
+        private void button20_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an20";
+            Done();
+        }
+        private void button21_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an21";
+            Done();
+        }
+        private void button22_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an22";
+            Done();
+        }
+        private void button23_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an23";
+            Done();
+        }
+        private void button24_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an24";
+            Done();
+        }
+        private void button25_Click(object sender, EventArgs e)
+        {
+            ExtraAlign = "an25";
+            Done();
+        }
 
         private void AlignmentPicker_KeyDown(object sender, KeyEventArgs e)
         {
